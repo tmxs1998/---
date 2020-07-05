@@ -1,0 +1,30 @@
+#wrap {
+	margin: 50px auto;
+	width: 650px;
+	height: 422px;
+	background: #ddd;
+}
+
+.aRandom {
+	display: block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	text-align: center;
+	background: #fff;
+	border: solid 1px #eee;
+}
+
+
+.drag {
+	position: relative;
+	width: 100%;
+	height: 400px;
+}
+
+.drag>img {
+	position: absolute;
+	width: 150px;
+	height: 94px;
+}
